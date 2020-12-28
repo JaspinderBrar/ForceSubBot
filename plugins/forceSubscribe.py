@@ -50,7 +50,7 @@ def _check_member(client, message):
       except UserNotParticipant:
         try:
           sent_message = message.reply_text(
-              "{}, you are **not subscribed** to my [channel](https://t.me/{}) yet. Please [join](https://t.me/{}) and **press the button below** to unmute yourself.".format(message.from_user.mention, channel, channel),
+              "{}, you are not subscribed to [Learning Point Official Channel](https://t.me/Learning_Point_Official) yet In this channel, you will get all books, sample papers, notes and other study material. Please [join](https://t.me/Learning_Point_Official) and **press the button below** to unmute yourself.".format(message.from_user.mention, channel, channel),
               disable_web_page_preview=True,
               reply_markup=InlineKeyboardMarkup(
                   [[InlineKeyboardButton("UnMute Me", callback_data="onUnMuteRequest")]]
