@@ -1,6 +1,6 @@
 # Introduction
 **A Telegram Bot to force users to join a specific channel before sending messages in a group.**
-- Find it on Telegram as [Channel Sub Group Bot](https://t.me/ChannelSubGroupBot)
+- Find it on Telegram as [Channel Sub Group Bot](https://t.me/GroupSubChannelBot)
 
 ## Todo
 - [ ] Add multiple channels support
